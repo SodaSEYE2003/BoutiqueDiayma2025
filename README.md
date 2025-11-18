@@ -1,11 +1,6 @@
-<<<<<<< HEAD
-# Boutique Diayma
-<<<<<<< HEAD
-=======
+
 # BoutiqueDiayma2025
->>>>>>> b97d8d9aa2b46b2e2f82745eddca734408627450
-=======
-#Explorez l’application. Signalez 2 bugs trouvés ?
+# Explorez l’application. Signalez 2 bugs trouvés ?
 ## Bugs trouvés
 
 ### 1. Le changement de langue en espagnol ne fonctionne pas
