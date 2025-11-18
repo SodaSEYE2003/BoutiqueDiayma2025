@@ -43,4 +43,4 @@
  - Une fois les produits récupérés par le repository, le service les renvoie au controller.
  - Le controller exécute return View(products), ce qui envoie les données à la vue Razor.
  - La page d’accueil affiche alors la liste des produits.
->>>>>>> 10c3b08e65c7bbd49da5e5bf1632be6f38a7eb16
+
