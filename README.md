@@ -15,30 +15,30 @@
 ###4) Placez un point d’arrêt sur les lignes suivantes du code :(fait dans vscode)
 
 ### 5) les namespaces, classes et méthodes visités avant l’affichage des #produits sur l’écran d’accueil de votre navigateur, en mode "Pas à pas #détaillé" sont :
-### 1. Première étape
+### 1. Première étape : Passage dans le constructeur du ProductController
 - L’exécution arrive d’abord dans le constructeur du controller :
 - Namespace : P2FixAnAppDotNetCode.Controllers
 - Classe : ProductController
 - Méthode : ProductController (constructeur)
-### 2. Deuxième étape
+### 2. Deuxième étape : Appel de la méthode Index() du ProductController
 - Après être passé par le constructeur du ProductController, l’exécution arrive dans la méthode :
 - Namespace : P2FixAnAppDotNetCode.Controllers
 - Classe : ProductController
 - Méthode : Index()
 - Cette méthode appelle le service pour récupérer la liste des produits.
-### 3. Troisième étape
+### 3. Troisième étape : Passage dans le ProductService
  - Le controller appelle ensuite le service :
  - Namespace : P2FixAnAppDotNetCode.Models.Services
  - Classe :  ProductService
  - Méthode : GetAllProducts()
  - Le service appelle le repository pour récupérer les données des produits.
-### 4. Quatrième étape
+### 4. Quatrième étape : Appel du ProductRepository
  - Le service appelle ensuite le repository pour accéder aux données :
  - Namespace :P2FixAnAppDotNetCode.Models.Repositories
  - Classe : ProductRepository
  - Méthode : GetAllProducts()
  - Cette méthode filtre les produits en stock, les trie par nom, et renvoie la liste au service.
-### 5. Dernière étape
+### 5. Dernière étape : Retour vers le Controller et affichage de la vue
  - Une fois les produits récupérés par le repository, le service les renvoie au controller.
  - Le controller exécute return View(products), ce qui envoie les données à la vue Razor.
  - La page d’accueil affiche alors la liste des produits.
