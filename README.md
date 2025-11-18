@@ -1,6 +1,6 @@
 
 # BoutiqueDiayma2025
-# Explorez l’application. Signalez 2 bugs trouvés ?
+### Explorez l’application. Signalez 2 bugs trouvés ?
 ## Bugs trouvés
 
 ### 1. Le changement de langue en espagnol ne fonctionne pas
